@@ -1,17 +1,2 @@
-name: Greetings
-
-on: [pull_request, issues]
-
-jobs:
-  greeting:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/first-interaction   repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Message that will be displayed on users'' first issue'
-        pr-message: 'Message that will be displayed on users'' first pr'
 https://github.com/Madur23/momo-cloud-permission/edit/master/.github/workflows/greetings.yml
-
-name: Greetings  on: [pull_request, issues]    runs-on: ubuntu-latest     steps:     - uses: actions/first-interaction    repo-token: ${{ secrets.GITHUB_TOKEN }}     issue-message: 'Message that will be displayed on users'' first issue'     pr-message: 'Message that will be displayed on users'' first pr' https://github.com/Madur23/momo-cloud-permission/edit/master/.github/workflows/  https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions  name: Node.js CI   branches: [ master ]    branches: [ master ]    runs-on: ubuntu-latest   node-version: [10.x, 12.x]    - uses: actions/checkout    - name: Use Node.js ${{ matrix.node-version }}     uses: actions/setup-node  node-version: ${{ matrix.node-version }}     - run: npm ci     - run: npm run build --if-present     - run: npm test     CI: true
-
-name: Node.js CI    branches: [ master ]    branches: [ master ]  runs-on: ubuntu-latest  node-version: [10.x, 12.x]
-- uses: actions/checkout  - name: Use Node.js ${{ matrix.node-version }}  uses: actions/setup-node  node-version: ${{ matrix.node-version }}  - run: npm ci - run: npm run build --if-present - run: npm test CI: true
+https://github.com/Madur23/momo-cloud-permission/edit/master/.github/workflows/
