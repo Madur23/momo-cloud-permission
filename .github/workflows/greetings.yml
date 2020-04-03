@@ -1,18 +1,18 @@
 name: Greetings
-    - uses: actions/first-interaction
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Message that will be displayed on users'' first issue'
+    - uses: actions first interaction
+        repo token: ${{ secrets.GITHUB_TOKEN }}
+        issue message: 'Message that will be displayed on users'' first issue'
         pr-message: 'Message that will be displayed on users'' first pr'
 https://github.com/Madur23/momo-cloud-permission/edit/master/.github/workflows/greetings.yml
     branches: [ master ]
 
-    runs-on: ubuntu-latest
-        node-version: [10.x, 12.x]
-    - uses: actions/checkout@v2
+    runs on: ubuntu-latest
+        node version: [10.x, 12.x]
+    - uses: actions checkout
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-        node-version: ${{ matrix.node-version }}
+      uses: actions setup-node
+        node version: ${{ matrix.node-version }}
     - run: npm ci
-    - run: npm run build --if-present
+    - run: npm run build if present
     - run: npm test
         CI: true
