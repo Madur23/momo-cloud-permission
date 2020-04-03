@@ -1,5 +1,5 @@
 repo token: ${{ secrets.GITHUB_TOKEN }}
-        issue message: 'Message that will be displayed on users'' first issue'
+        issue message: release codes
         pr-message: 'Message that will be displayed on users'' first pr'
 https://github.com/Madur23/momo-cloud-permission/edit/master/.github/workflows/greetings.yml
     branches: [ master ]runs on: ubuntu-latest node version: [10.x, 12.x]
