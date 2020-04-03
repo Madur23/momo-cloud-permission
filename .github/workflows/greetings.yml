@@ -1,5 +1,5 @@
 name: Greetings
-    - uses: actions/first-interactionv1
+    - uses: actions/first-interaction
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: 'Message that will be displayed on users'' first issue'
         pr-message: 'Message that will be displayed on users'' first pr'
