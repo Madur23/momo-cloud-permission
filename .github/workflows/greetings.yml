@@ -13,7 +13,7 @@ jobs:
         pr-message: 'Message that will be displayed on users'' first pr'
 https://github.com/Madur23/momo-cloud-permission/edit/master/.github/workflows/greetings.yml
 
-name: Node.js CI <html><body>You are being <a href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FMadur23%2Fmomo-cloud-permission%2Fedit%2Fmaster%2F.github%2Fworkflows%2Fgreetings.yml">redirected</a>.</body></html>
+name: Node js CI <html><body>You are being <a href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FMadur23%2Fmomo-cloud-permission%2Fedit%2Fmaster%2F.github%2Fworkflows%2Fgreetings.yml">redirected</a>.</body></html>
 
 on:
   push:
