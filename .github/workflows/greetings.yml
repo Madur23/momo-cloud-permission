@@ -1,6 +1,4 @@
 name: Greetings
-
-on: [pull request issues]
     runs-on: ubuntu-latest
     - uses: actions/first-interaction@v1
         repo-token: ${{ secrets.GITHUB_TOKEN }}
